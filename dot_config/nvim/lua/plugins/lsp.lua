@@ -6,8 +6,6 @@ return {
     servers = {
       stimulus_ls = {},
       cssls = {},
-      docker_compose_language_service = {},
-      dockerls = {},
     },
   },
 }
