@@ -1,0 +1,25 @@
+set showmode
+set incsearch
+set nu
+set relativenumber
+set ignorecase
+set smartcase
+
+let mapleader=" "
+
+nnoremap <C-h> :action PreviousTab<CR>
+nnoremap <C-l> :action NextTab<CR>
+
+"nnoremap <leader>| :action SplitVertically<CR>
+nnoremap <leader>- :action SplitHorizontally<CR>
+
+nnoremap <leader>bd :action CloseEditor<CR>
+
+nnoremap <leader>fe :action SearchEverywhere<CR>
+nnoremap <leader>ff :action GotoFile<CR>
+nnoremap <leader>fc :action GotoClass<CR>
+nnoremap <leader>fs :action GotoSymbol<CR>
+
+nnoremap <leader>e :action ActivateProjectToolWindow<CR>
+
+set easymotion
